@@ -1,0 +1,5 @@
+﻿  HDD.cpp
+d:\nick\nick_documents\visual_studio\iipu_labs\iipu\hdd\standarts.h(99): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+d:\nick\nick_documents\visual_studio\iipu_labs\iipu\hdd\standarts.h(113): warning C4244: =: преобразование "ULONGLONG" в "int", возможна потеря данных
+d:\nick\nick_documents\visual_studio\iipu_labs\iipu\hdd\standarts.h(114): warning C4244: =: преобразование "ULONGLONG" в "int", возможна потеря данных
+  HDD.vcxproj -> D:\Nick\Nick_Documents\Visual_Studio\IIPU_Labs\IIPU\Debug\HDD.exe

@@ -1,0 +1,5 @@
+﻿  PCI.cpp
+d:\nick\nick_documents\visual_studio\iipu_labs\iipu\pci\pci.cpp(74): warning C4018: <: несоответствие типов со знаком и без знака
+d:\nick\nick_documents\visual_studio\iipu_labs\iipu\pci\pci.cpp(159): warning C4018: <: несоответствие типов со знаком и без знака
+d:\nick\nick_documents\visual_studio\iipu_labs\iipu\pci\pci.cpp(172): warning C4018: <: несоответствие типов со знаком и без знака
+  PCI.vcxproj -> D:\Nick\Nick_Documents\Visual_Studio\IIPU_Labs\IIPU\Debug\PCI.exe
