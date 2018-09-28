@@ -80,7 +80,6 @@ public:
 	}
 };
 
-#define MEGABYTE 1048576
 
 class Memory {
 public:
@@ -104,8 +103,8 @@ public:
 				if (GetDriveType(path.c_str()) == DRIVE_FIXED) {
 					GetDiskFreeSpaceEx(path.c_str(), 0, &diskSpace, &freeSpace);
 
-					totalDiskSpace.QuadPart += diskSpace.QuadPart / MEGABYTE;
-					totalFreeSpace.QuadPart += freeSpace.QuadPart / MEGABYTE;
+					totalDiskSpace.QuadPart += diskSpace.QuadPart / 1048576;
+					totalFreeSpace.QuadPart += freeSpace.QuadPart / 1048576;
 				}
 			}
 		}
@@ -128,7 +127,21 @@ public:
 	Memory memory;
 };
 
-const char* busType[] = { "UNKNOWN", "SCSI", "ATAPI", "ATA", "ONE_TREE_NINE_FOUR", "SSA", "FIBRE", "USB", "RAID", "ISCSI", "SAS", "SATA", "SD", "MMC" };
+const char* busType[] = { 
+	"UNKNOWN",
+	"SCSI",
+	"ATAPI",
+	"ATA",
+	"ONE_TREE_NINE_FOUR",
+	"SSA",
+	"FIBRE",
+	"USB",
+	"RAID",
+	"ISCSI",
+	"SAS",
+	"SATA",
+	"SD",
+	"MMC" };
 
 class StorageInfoProvider {
 	DiskDrive drive;
